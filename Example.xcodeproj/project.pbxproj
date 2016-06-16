@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4388960C1D10325D00A7801A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4388960B1D10325D00A7801A /* main.m */; };
+		438896141D1032E900A7801A /* SinhVienBachKhoa.m in Sources */ = {isa = PBXBuildFile; fileRef = 438896131D1032E900A7801A /* SinhVienBachKhoa.m */; };
+		438896171D1038F500A7801A /* SinhvienToanTinh.m in Sources */ = {isa = PBXBuildFile; fileRef = 438896161D1038F500A7801A /* SinhvienToanTinh.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		438896081D10325D00A7801A /* Example */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Example; sourceTree = BUILT_PRODUCTS_DIR; };
 		4388960B1D10325D00A7801A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		438896121D1032E900A7801A /* SinhVienBachKhoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinhVienBachKhoa.h; sourceTree = "<group>"; };
+		438896131D1032E900A7801A /* SinhVienBachKhoa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinhVienBachKhoa.m; sourceTree = "<group>"; };
+		438896151D1038F500A7801A /* SinhvienToanTinh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinhvienToanTinh.h; sourceTree = "<group>"; };
+		438896161D1038F500A7801A /* SinhvienToanTinh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinhvienToanTinh.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				4388960B1D10325D00A7801A /* main.m */,
+				438896151D1038F500A7801A /* SinhvienToanTinh.h */,
+				438896161D1038F500A7801A /* SinhvienToanTinh.m */,
+				438896121D1032E900A7801A /* SinhVienBachKhoa.h */,
+				438896131D1032E900A7801A /* SinhVienBachKhoa.m */,
 			);
 			path = Example;
 			sourceTree = "<group>";
@@ -118,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				438896171D1038F500A7801A /* SinhvienToanTinh.m in Sources */,
+				438896141D1032E900A7801A /* SinhVienBachKhoa.m in Sources */,
 				4388960C1D10325D00A7801A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
