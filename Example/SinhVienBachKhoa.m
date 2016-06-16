@@ -10,33 +10,32 @@
 
 @implementation SinhVienBachKhoa
 
--(void) helloStudent : (SinhVienBachKhoa*)svBK
-{;
++(void) helloStudent : (SinhVienBachKhoa*)svBK
+{
     NSLog(@" Ten sinh vien la : %@",svBK);
 }
 
--(NSString*) xetgioitinh : (BOOL)gioitinh
+
+-(NSString*) xetGioiTinh : (BOOL)gioitinh
 {
-    if (gioitinh == true)
-    {
-        return @"Nam";
-    }
+    if (gioitinh == true) return @"Nam";
     return @"Nu";
 }
 
--(BOOL) checkHB : (SinhVienBachKhoa*) sinhvienA
+
++(BOOL) checkHB : (SinhVienBachKhoa*) sinhvienA
 {
-    if(sinhvienA->diemly>5) return TRUE;
+    // Doan duoi nay la bia. =))
+    if(sinhvienA.diemLy>5) return TRUE;
     return false;
 }
 
--(SinhVienBachKhoa*) sosanh : (SinhVienBachKhoa*)sinhvienA : (SinhVienBachKhoa*)sinhvienB
+
++(SinhVienBachKhoa*) soSanh : (SinhVienBachKhoa*)sinhvienA : (SinhVienBachKhoa*)sinhvienB
 {
-    if (sinhvienA->diemtoan > sinhvienB->diemtoan) return sinhvienA;
+    if (sinhvienA.diemToan > sinhvienB.diemToan) return sinhvienA;
     return sinhvienB;
 }
-
-
 
 
 @end

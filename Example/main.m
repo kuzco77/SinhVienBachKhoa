@@ -7,11 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "SinhVienBachKhoa.h"
+#import "SinhVienToanTin.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
         NSLog(@"Hello, World!");
     }
+    SinhVienBachKhoa *sinhvien1;
+    
     return 0;
 }

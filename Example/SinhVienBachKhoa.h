@@ -10,18 +10,22 @@
 
 @interface SinhVienBachKhoa : NSObject
 {
-    CGFloat diemtoan;
-    CGFloat diemhoa;
-    CGFloat diemly;
-    BOOL sex;
-    CGFloat ten;
-    CGFloat khoa;
-    NSString *khoahoc;
+    
 }
 
--(void) helloStudent : (SinhVienBachKhoa*)svBK;
--(NSString*) xetgioitinh : (BOOL)gioitinh;
--(BOOL) checkHB : (SinhVienBachKhoa*) sinhvienA;
--(SinhVienBachKhoa*) sosanh : (SinhVienBachKhoa*)sinhvienA : (SinhVienBachKhoa*)sinhvienB;
+@property(nonatomic,readwrite) CGFloat diemToan;
+@property(nonatomic,readwrite) CGFloat diemHoa;
+@property(nonatomic,readwrite) CGFloat diemLy;
+@property(nonatomic,readwrite) BOOL sex;
+@property(nonatomic,readwrite) CGFloat ten;
+@property(nonatomic,readwrite) CGFloat khoa;
+@property(nonatomic,readwrite) NSString *khoaHoc;
+
+
+
++(void) helloStudent : (SinhVienBachKhoa*)svBK;
+-(NSString*) xetGioiTinh : (BOOL)gioitinh;
++(BOOL) checkHB : (SinhVienBachKhoa*) sinhvienA;
++(SinhVienBachKhoa*) soSanh : (SinhVienBachKhoa*)sinhvienA : (SinhVienBachKhoa*)sinhvienB;
 
 @end
